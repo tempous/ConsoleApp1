@@ -10,9 +10,9 @@ namespace ConsoleApp1
             int count = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < count; i++)
             {
-                Console.WriteLine($"Index: {i} - Value: {i+1}");
+                Console.WriteLine($"Индекс: {i} - Значение: {i+1}");
             }
-            Console.WriteLine("Finish...");
+            Console.WriteLine("Операция завершена...");
             Console.ReadKey();
         }
     }
